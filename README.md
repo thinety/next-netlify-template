@@ -13,7 +13,7 @@ yarn dev
 * optional: remove README.md and LICENSE
 
 * on Netlify UI:
-- build command: `yarn build`
-- publish directory: `out`
-- install `Next on Netlify` plugin: [link](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install)
-- install `Next.js Cache` plugin: [link](https://app.netlify.com/plugins/netlify-plugin-cache-nextjs/install)
+  - build command: `yarn build`
+  - publish directory: `out`
+  - install [`Next on Netlify` plugin](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install)
+  - install [`Next.js Cache` plugin](https://app.netlify.com/plugins/netlify-plugin-cache-nextjs/install)
