@@ -7,7 +7,13 @@ mkdir public
 
 yarn add next react react-dom
 yarn add -D typescript @types/react @types/node
-yarn add -D @netlify/plugin-nextjs
 
 yarn dev
 ```
+* optional: remove README.md and LICENSE
+
+* on Netlify UI:
+- build command: `yarn build`
+- publish directory: `out`
+- install `Next on Netlify` plugin: [link](https://app.netlify.com/plugins/@netlify/plugin-nextjs/install)
+- install `Next.js Cache` plugin: [link](https://app.netlify.com/plugins/netlify-plugin-cache-nextjs/install)
